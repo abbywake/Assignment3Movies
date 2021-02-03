@@ -6,7 +6,7 @@
 } 
 
 @model Assignment3Movies.Models.movie
-<div>
+<div class="textColor">
     <h2>Thank you for adding a movie to my collection! </h2>
     @if (Model.Title.ToUpper() != "INDEPENDENCE DAY")
     {
@@ -19,6 +19,6 @@
         <p><b>@Model.Title</b> is not the "Most American Movie Ever. Rockie IV is down-right AMERICAN! </p>
     }
 </div>
-<div>
+<div class="textColor">
     Click <a asp-action="seeTheMovies">HERE</a> to see the movies that have been added!
 </div>

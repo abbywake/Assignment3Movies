@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #ebe0b7;
+    background-color: #49594f;
 }
 .thumbnail:hover {
     position: relative;
@@ -9,4 +9,38 @@
     height: auto;
     display: block;
     z-index: 999;
+}
+
+h1 {
+    color: #dae0dc;
+}
+
+
+.textColor {
+    color: #dae0dc;
+}
+
+
+.w:link, .w:visited {
+    background-color: #b0b5b1;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.w:hover, .w:active {
+    background-color: #dae0dc;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b0b5b1;
+    color: white;
+    text-align: center;
 }
