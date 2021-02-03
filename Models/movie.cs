@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment3Movies.Models
 {
+   //making the movie model class and assigning them data type and doing the getters and setters 
     public class movie
     {   
         [Required]

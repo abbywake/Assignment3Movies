@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Assignment3Movies.Models
 {
+//basically just doing what he did in the videos to make a list of inputs
     public static class tempStorage
     {
         private static List<movie> movieList = new List<movie>();
